@@ -9,7 +9,7 @@
 
 ①ファイルをダウンロード
 
-②dockerを起動し、下記コマンドを/railsSampleApp直下で実行する
+②dockerを起動し、下記コマンドを/railsSampleApp/backed直下で実行する
 
 ```bash
 docker compose run backend rails new . --force --database=mysql --api
